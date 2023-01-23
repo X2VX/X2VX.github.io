@@ -136,77 +136,116 @@
                 <div class='full-screen-target'>
                     <script>
                         //<![CDATA[
-                        if (window._initialStoreState === undefined) window._initialStoreState = {}; window._initialStoreState['CurrentUserStore'] = { "locale": "en", "is_superadmin": false }; window._initialStoreState['TournamentStore'] = { "requested_plotter": "SingleEliminationBracketPlotter", "tournament": { "id": null, "state": "pending", "tournament_type": "single elimination", "quick_advance": false, "hide_seeds": false, "hide_identifiers": false, "show_station_and_time": true, "animated": true, "accept_attachments": false, "participant_count_to_advance": 1, "owner_ids": [null], "admin_ids": [null], "participants_swappable": true, "progress_meter": 0, "group_stage_progress_meter": 0, "grand_finals_modifier": null, "predict_the_losers_bracket": null,"is_team": false, "split_participants": false, "participants_per_match": 2, "only_start_matches_with_stations": null }, "rounds": [6], "third_place_match": null, "matches_by_round":
+                        if(window._initialStoreState === undefined) window._initialStoreState = {}; window._initialStoreState['CurrentUserStore'] = {"locale":"en","is_superadmin":false}; window._initialStoreState['TournamentStore'] = {"requested_plotter":"SingleEliminationBracketPlotter","tournament":{"id":null,"state":"pending","tournament_type":"single elimination","quick_advance":false,"hide_seeds":false,"hide_identifiers":false,"show_station_and_time":true,"animated":true,"accept_attachments":false,"participant_count_to_advance":1,"owner_ids":[null],"admin_ids":[null],"participants_swappable":true,"progress_meter":0,"group_stage_progress_meter":0,"grand_finals_modifier":null,"predict_the_losers_bracket":null,"voting_underway":false,"is_team":false,"split_participants":false,"participants_per_match":2,"only_start_matches_with_stations":null},"rounds":[],"third_place_match":null,"matches_by_round":
+                        {"1":[
+                        // Partida 1 REPESCA 1BACH H VS 3C
+                        {"id":null,"tournament_id":null,"identifier":2,"round":1,"state":"pending","underway_at":null,"games":[],"scheduled_time":"REPESCA 19/01/23 11:00","shareable":false,
                 
-                        { "1": [{ "id": null, "tournament_id": null, "identifier": 1, "round": 1, "state": "pending","games": [], "scheduled_time":" 16/01/23  10:50",
-                        // Partida 1
-                        "player1": { "id": null, "tournament_id": null, "name": "|__auto__|8", "seed": "19", "active": true,"final_rank": null,"icon": null,"group_id": null, "checked_in_at": null, "ranked_member_id": null, "username": null, "display_name": "3ºB", "ordinal_seed": "8th" },
+                        "player1":{"id":null,"tournament_id":null,"name":"|__auto__|4","seed":21,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"1ºBACH H","ordinal_seed":"4th"},
                 
-                        "player2": { "id": null, "tournament_id": null, "name": "|__auto__|9", "seed": "18", "active": true,"final_rank": null,"icon": null,"group_id": null, "checked_in_at": null, "ranked_member_id": null,"username": null, "display_name": "3ºD", "ordinal_seed": "9th" },
+                        "player2":{"id":null,"tournament_id":null,"name":"|__auto__|13","seed":22,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"3ºC","ordinal_seed":"13th"},
                 
-                        "player1_prereq_identifier": null, "player2_prereq_identifier": null, "player1_is_prereq_match_loser": false, "player2_is_prereq_match_loser": false, "player1_placeholder_text": null, "player2_placeholder_text": null, "scores": [], "winner_id": null, "loser_id": null, "md5": "d0ea7aa388946a0a945eec68e5f37159" },
-                        // Partida 
-                        { "id": null, "tournament_id": null, "identifier": 2, "round": 1, "state": "pending","games": [], "scheduled_time":"16/01/23  10:50",
+                        "player1_prereq_identifier":null,"player2_prereq_identifier":null,"player1_is_prereq_match_loser":false,"player2_is_prereq_match_loser":false,"player1_placeholder_text":null,"player2_placeholder_text":null,"scores":[],"winner_id":null,"loser_id":null,"md5":"acc84e9276148f8e41c197b6cb8be65a"},
+                        // Partida 2 1BACH C VS 1 BACH H
+                        {"id":null,"tournament_id":null,"identifier":3,"round":1,"state":"pending","underway_at":null,"games":[],"scheduled_time":"17/01/23 11:00","shareable":false,
                 
-                        "player1": { "id": null, "tournament_id": null, "name": "|__auto__|7", "seed": "1", "active": true,"final_rank": null,"icon": null,"group_id": null, "checked_in_at": null, "ranked_member_id": null, "username": null, "display_name": "3ºE", "ordinal_seed": "7th" }, 
+                        "player1":{"id":null,"tournament_id":null,"name":"|__auto__|5","seed":36,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"1ºBACH C","ordinal_seed":"5th"},
                 
-                        "player2": { "id": null, "tournament_id": null, "name": "|__auto__|10", "seed": "0", "active": true,"final_rank": null,"icon": null,"group_id": null, "checked_in_at": null, "ranked_member_id": null,"username": null, "display_name": "3ºC", "ordinal_seed": "10th" },
+                        "player2":{"id":null,"tournament_id":null,"name":"|__auto__|12","seed":10,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"1ºBACH H","ordinal_seed":"12th"},
                 
-                        "player1_prereq_identifier": null, "player2_prereq_identifier": null, "player1_is_prereq_match_loser": false, "player2_is_prereq_match_loser": false, "player1_placeholder_text": null, "player2_placeholder_text": null, "scores": [], "winner_id": null, "loser_id": null, "md5": "3350be21842ceb58dcc316908f245450" }], 
-                        // Partida 3
-                        "2": [{ "id": null, "tournament_id": null, "identifier": 5, "round": 2, "state": "pending","games": [], "scheduled_time":"18/01/23  10:50", 
+                        "player1_prereq_identifier":null,"player2_prereq_identifier":null,"player1_is_prereq_match_loser":false,"player2_is_prereq_match_loser":false,"player1_placeholder_text":null,"player2_placeholder_text":null,"scores":[],"winner_id":null,"loser_id":null,"md5":"d36a7e5eb6deb8fa62cfeb526c295dab"},
+                        // Partida 3 3B VS 3D 
+                        {"id":null,"tournament_id":null,"identifier":4,"round":1,"state":"pending","underway_at":null,"games":[],"scheduled_time":"16/01/23 11:00","shareable":false,
                 
-                        "player1": { "id": null, "tournament_id": null, "name": "|__auto__|1", "seed": "", "active": true,"final_rank": null,"icon": null,"group_id": null, "checked_in_at": null, "ranked_member_id": null,"username": null, "display_name": "4ºA", "ordinal_seed": "1st" },
+                        "player1":{"id":null,"tournament_id":null,"name":"|__auto__|2","seed":20,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"3ºB","ordinal_seed":"2nd"},
                 
-                        "player2": {"id": null, "tournament_id": null, "name": "|__auto__|10", "seed": "", "active": true,"final_rank": null,"icon": null,"group_id": null, "checked_in_at": null, "ranked_member_id": null,"username": null, "display_name": "3ºB", "ordinal_seed": "10th" },
+                        "player2":{"id":null,"tournament_id":null,"name":"|__auto__|15","seed":19,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"3ºD","ordinal_seed":"15th"},
                 
-                        "player1_prereq_identifier": null, "player2_prereq_identifier": 1, "player1_is_prereq_match_loser": false, "player2_is_prereq_match_loser": false, "player1_placeholder_text": null, "player2_placeholder_text": null, "scores": [], "winner_id": null, "loser_id": null, "md5": "bd7d38d78a63230b16bc4051ff657b96" },
-                        // Partida 4
-                        { "id": null, "tournament_id": null, "identifier": 3, "round": 2, "state": "pending","games": [], "scheduled_time":"17/01/23  10:50", 
+                        "player1_prereq_identifier":null,"player2_prereq_identifier":null,"player1_is_prereq_match_loser":false,"player2_is_prereq_match_loser":false,"player1_placeholder_text":null,"player2_placeholder_text":null,"scores":[],"winner_id":null,"loser_id":null,"md5":"96cfb3caccfb801d1c376d594701ef16"},
+                        // Partida 4 3E VS 3C
+                        {"id":null,"tournament_id":null,"identifier":5,"round":1,"state":"pending","underway_at":null,"games":[],"scheduled_time":"16/01/23 11:00","shareable":false,
                 
-                        "player1": { "id": null, "tournament_id": null, "name": "|__auto__|4", "seed": "", "active": true,"final_rank": null,"icon": null,"group_id": null, "checked_in_at": null, "ranked_member_id": null,"username": null, "display_name": "1ºBACH MiXTO", "ordinal_seed": "4th" },
+                        "player1":{"id":null,"tournament_id":null,"name":"|__auto__|7","seed":1,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"3ºE","ordinal_seed":"7th"},
+                
+                        "player2":{"id":null,"tournament_id":null,"name":"|__auto__|10","seed":0,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"3ºC","ordinal_seed":"10th"},
+                
+                        "player1_prereq_identifier":null,"player2_prereq_identifier":null,"player1_is_prereq_match_loser":false,"player2_is_prereq_match_loser":false,"player1_placeholder_text":null,"player2_placeholder_text":null,"scores":[],"winner_id":null,"loser_id":null,"md5":"5f5333a78540ac57d6fc3029c56c05c9"},
+                        // Partida 5 4A VS 4B
+                        {"id":null,"tournament_id":null,"identifier":6,"round":1,"state":"pending","underway_at":null,"games":[],"scheduled_time":"17/01/23 11:00","shareable":false,
+                
+                        "player1":{"id":null,"tournament_id":null,"name":"|__auto__|3","seed":0,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"4ºA","ordinal_seed":"3rd"},
+                
+                        "player2":{"id":null,"tournament_id":null,"name":"|__auto__|14","seed":1,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"4ºB","ordinal_seed":"14th"},
+                
+                        "player1_prereq_identifier":null,"player2_prereq_identifier":null,"player1_is_prereq_match_loser":false,"player2_is_prereq_match_loser":false,"player1_placeholder_text":null,"player2_placeholder_text":null,"scores":[],"winner_id":null,"loser_id":null,"md5":"bd4116eba9b54288bd44a7080164eace"},
+                        // Partida 6 4C VS 1 BACH MIX
+                        {"id":null,"tournament_id":null,"identifier":7,"round":1,"state":"pending","underway_at":null,"games":[],"scheduled_time":"18/01/23 11:00","shareable":false,
+                
+                        "player1":{"id":null,"tournament_id":null,"name":"|__auto__|6","seed":23,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"4ºC","ordinal_seed":"6th"},
+                
+                        "player2":{"id":null,"tournament_id":null,"name":"|__auto__|11","seed":24,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"1ºBACH MIX","ordinal_seed":"11th"},
+                
+                        "player1_prereq_identifier":null,"player2_prereq_identifier":null,"player1_is_prereq_match_loser":false,"player2_is_prereq_match_loser":false,"player1_placeholder_text":null,"player2_placeholder_text":null,"scores":[],"winner_id":null,"loser_id":null,"md5":"022e663233f453f83baf2802941f0ca0"}],
+                        //Ronda 2
+                        "2":[{"id":null,"tournament_id":null,"identifier":8,"round":2,"state":"pending","underway_at":null,"games":[],"scheduled_time":"REPESCA 19/01/23 11:00","shareable":false,
+                        // Partida 7 REPESCA 4A VS 4C 
+                        "player1":{"id":null,"tournament_id":null,"name":"|__auto__|1","seed":10,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"4ºA","ordinal_seed":"1st"},
+                
+                        "player2":{"id":null,"tournament_id":null,"name":"|__auto__|1","seed":24,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"4ºC","ordinal_seed":"1st"},
+                
+                        "player1_prereq_identifier":null,"player2_prereq_identifier":null,"player1_is_prereq_match_loser":false,"player2_is_prereq_match_loser":false,"player1_placeholder_text":null,"player2_placeholder_text":null,"scores":[],"winner_id":null,"loser_id":null,"md5":"9a548b911d2ff84dba53d8f758ffa9bf"},
+                        // Partida 8 3C VS 1 BACH C
+                        {"id":null,"tournament_id":null,"identifier":9,"round":2,"state":"pending","underway_at":null,"games":[],"scheduled_time":"24/01/23 11:00","shareable":false,
+                
+                        "player1":{"id":null,"tournament_id":null,"name":"|__auto__|1","seed":null,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"3ºC","ordinal_seed":"1st"},
+                
+                        "player2":{"id":null,"tournament_id":null,"name":"|__auto__|1","seed":null,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"1ºBACH C","ordinal_seed":"1st"},
+                
+                        "player1_prereq_identifier":2,"player2_prereq_identifier":3,"player1_is_prereq_match_loser":false,"player2_is_prereq_match_loser":false,"player1_placeholder_text":null,"player2_placeholder_text":null,"scores":[],"winner_id":null,"loser_id":null,"md5":"882b4a00d74562f0de3da356cccad9c0"},
+                        // Partida 9 3B VS 3E
+                        {"id":null,"tournament_id":null,"identifier":10,"round":2,"state":"pending","underway_at":null,"games":[],"scheduled_time":"18/01/23 11:00","shareable":false,
+                
+                        "player1":{"id":null,"tournament_id":null,"name":"|__auto__|1","seed":21,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"3ºB","ordinal_seed":"1st"},
+                
+                        "player2":{"id":null,"tournament_id":null,"name":"|__auto__|1","seed":17,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"3ºE","ordinal_seed":"1st"},
+                
+                        "player1_prereq_identifier":4,"player2_prereq_identifier":5,"player1_is_prereq_match_loser":false,"player2_is_prereq_match_loser":false,"player1_placeholder_text":null,"player2_placeholder_text":null,"scores":[],"winner_id":null,"loser_id":null,"md5":"293efcf7a3a776864c0de90c43f75dd2"},
+                        // Partida 10 4B VS 1 BACH MIX
+                        {"id":null,"tournament_id":null,"identifier":11,"round":2,"state":"pending","underway_at":null,"games":[],"scheduled_time":"24/01/23 11:00","shareable":false,
                         
-                        "player2": { "id": null, "tournament_id": null, "name": "|__auto__|5", "seed": "", "active": true,"final_rank": null,"icon": null,"group_id": null, "checked_in_at": null, "ranked_member_id": null,"username": null, "display_name": "4ºB", "ordinal_seed": "5th" },
+                        "player1":{"id":null,"tournament_id":null,"name":"|__auto__|1","seed":null,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"4ºB","ordinal_seed":"1st"},
                 
-                        "player1_prereq_identifier": null, "player2_prereq_identifier": null, "player1_is_prereq_match_loser": false, "player2_is_prereq_match_loser": false, "player1_placeholder_text": null, "player2_placeholder_text": null, "scores": [], "winner_id": null, "loser_id": null, "md5": "fe54bacc0403468dc2119599d78dbd2e" },
-                        // Partida 5
-                        { "id": null, "tournament_id": null, "identifier": 6, "round": 2, "state": "pending","games": [], "scheduled_time":"18/01/23  10:50", 
+                        "player2":{"id":null,"tournament_id":null,"name":"|__auto__|1","seed":null,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"1ºBACH MIX","ordinal_seed":"1st"},
                 
-                        "player1": { "id": null, "tournament_id": null, "name": "|__auto__|2", "seed": "", "active": true,"final_rank": null,"icon": null,"group_id": null, "checked_in_at": null, "ranked_member_id": null,"username": null, "display_name": "3ºE", "ordinal_seed": "2nd" },
-                
-                        "player2":{ "id": null, "tournament_id": null, "name": "|__auto__|2", "seed": "", "active": true,"final_rank": null,"icon": null,"group_id": null, "checked_in_at": null, "ranked_member_id": null,"username": null, "display_name": "4ºC", "ordinal_seed": "2nd" },
-                
-                        "player1_prereq_identifier": null, "player2_prereq_identifier": 2, "player1_is_prereq_match_loser": false, "player2_is_prereq_match_loser": false, "player1_placeholder_text": null, "player2_placeholder_text": null, "scores": [], "winner_id": null, "loser_id": null, "md5": "0889f89892bfdb0d1aebc7683e1714bf" },
-                        // Partida 6
-                        { "id": null, "tournament_id": null, "identifier": 4, "round": 2, "state": "pending","games": [], "scheduled_time":"17/01/23  10:50", 
-                
-                        "player1": { "id": null, "tournament_id": null, "name": "|__auto__|3", "seed": 3, "active": true,"final_rank": null,"icon": null,"group_id": null, "checked_in_at": null, "ranked_member_id": null,"username": null, "display_name": "1ºBACH H", "ordinal_seed": "3rd" },
-                
-                        "player2": { "id": null, "tournament_id": null, "name": "|__auto__|6", "seed": 6, "active": true,"final_rank": null,"icon": null,"group_id": null, "checked_in_at": null, "ranked_member_id": null,"username": null, "display_name": "1ºBACH C", "ordinal_seed": "6th" },
+                        "player1_prereq_identifier":6,"player2_prereq_identifier":7,"player1_is_prereq_match_loser":false,"player2_is_prereq_match_loser":false,"player1_placeholder_text":null,"player2_placeholder_text":null,"scores":[],"winner_id":null,"loser_id":null,"md5":"09c3e35146a22eff022b1d792bf90f7e"}],
+                        //Ronda 3
+                        "3":[{"id":null,"tournament_id":null,"identifier":12,"round":3,"state":"pending","underway_at":null,"games":[],"scheduled_time":"26/01/23 11:00","shareable":false,
+                        //Partida 11
+                        "player1":{"id":null,"tournament_id":null,"name":"|__auto__|1","seed":null,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"4ºC","ordinal_seed":"1st"},
                         
-                        "player1_prereq_identifier": null, "player2_prereq_identifier": null, "player1_is_prereq_match_loser": false, "player2_is_prereq_match_loser": false, "player1_placeholder_text": null, "player2_placeholder_text": null, "scores": [], "winner_id": null, "loser_id": null, "md5": "a6b6deafbf5dc644b634d5bce7c8735a" }],
-                        // Partida 7
-                        "3": [{ "id": null, "tournament_id": null, "identifier": 7, "round": 3, "state": "pending","games": [], "scheduled_time":"19/01/23  10:50", 
-                
-                        "player1": { "id": null, "tournament_id": null, "name": "|__auto__|2", "seed": "", "active": true,"final_rank": null,"icon": null,"group_id": null, "checked_in_at": null, "ranked_member_id": null,"username": null, "display_name": "TBA", "ordinal_seed": "2nd" }, 
-                
-                        "player2": { "id": null, "tournament_id": null, "name": "|__auto__|2", "seed": "", "active": true,"final_rank": null,"icon": null,"group_id": null, "checked_in_at": null, "ranked_member_id": null,"username": null, "display_name": "TBA", "ordinal_seed": "2nd" }, 
-                
-                        "player1_prereq_identifier": 5, "player2_prereq_identifier": 3, "player1_is_prereq_match_loser": false, "player2_is_prereq_match_loser": false, "player1_placeholder_text": null, "player2_placeholder_text": null, "scores": [], "winner_id": null, "loser_id": null, "md5": "0cf617a20899ebe568899f91e44184b5" }, { "id": null, "tournament_id": null, "identifier": 8, "round": 3, "state": "pending","games": [], "scheduled_time":"19/01/23  10:50", 
-                        // Partida 8
-                        "player1": { "id": null, "tournament_id": null, "name": "|__auto__|2", "seed": "", "active": true,"final_rank": null,"icon": null,"group_id": null, "checked_in_at": null, "ranked_member_id": null,"username": null, "display_name": "TBA", "ordinal_seed": "2nd" }, 
-                
-                        "player2": { "id": null, "tournament_id": null, "name": "|__auto__|2", "seed":"", "active": true,"final_rank": null,"icon": null,"group_id": null, "checked_in_at": null, "ranked_member_id": null,"username": null, "display_name": "TBA", "ordinal_seed": "2nd" }, 
-                
-                        "player1_prereq_identifier": 6, "player2_prereq_identifier": 4, "player1_is_prereq_match_loser": false, "player2_is_prereq_match_loser": false, "player1_placeholder_text": null, "player2_placeholder_text": null, "scores": [], "winner_id": null, "loser_id": null, "md5": "9e7dd82f56c80c2b46dc0e72bc2da488" }], "4": [{ "id": null, "tournament_id": null, "identifier": 9, "round": 4, "state": "pending","games": [], "scheduled_time":"20/01/23  10:50", 
-                        // Partida 9
-                        "player1": { "id": null, "tournament_id": null, "name": "|__auto__|2", "seed": "", "active": true,"final_rank": null,"icon": null,"group_id": null, "checked_in_at": null, "ranked_member_id": null,"username": null, "display_name": "TBA", "ordinal_seed": "2nd" }, 
-                
-                        "player2": { "id": null, "tournament_id": null, "name": "|__auto__|2", "seed": "", "active": true,"final_rank": null,"icon": null,"group_id": null, "checked_in_at": null, "ranked_member_id": null,"username": null, "display_name": "TBA", "ordinal_seed": "2nd" }, 
+                        "player2":{"id":null,"tournament_id":null,"name":"|__auto__|1","seed":null,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"TBA","ordinal_seed":"1st"},
                         
-                        "player1_prereq_identifier": 7, "player2_prereq_identifier": 8, "player1_is_prereq_match_loser": false, "player2_is_prereq_match_loser": false, "player1_placeholder_text": null, "player2_placeholder_text": null, "scores": [], "winner_id": null, "loser_id": null, "md5": "590c883d434c9c3e0cebf390e4555b3e" }] }, "groups": [] }; window._initialStoreState['ThemeStore'] = { "options": { "hideSeeds": false, "hideIdentifiers": null, "showStationAndTime": true, "participantsPerMatch": 2 } }; window._initialStoreState['BracketSettingsStore'] = { "panOnSingleClick": false, "zoomScaleOnDoubleClick": null, "use100vh": false, "showDetailsOnHover": true };
+                        "player1_prereq_identifier":8,"player2_prereq_identifier":9,"player1_is_prereq_match_loser":false,"player2_is_prereq_match_loser":false,"player1_placeholder_text":null,"player2_placeholder_text":null,"scores":[],"winner_id":null,"loser_id":null,"md5":"32c3b6fd21d3fdd3ac52d24bc63e6269"},
+                        // Partida 12
+                        {"id":null,"tournament_id":null,"identifier":13,"round":3,"state":"pending","underway_at":null,"games":[],"scheduled_time":"26/01/23 11:00","shareable":false,
+                        
+                        "player1":{"id":null,"tournament_id":null,"name":"|__auto__|1","seed":null,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"3ºB","ordinal_seed":"1st"},
+                        
+                        "player2":{"id":null,"tournament_id":null,"name":"|__auto__|1","seed":null,"active":true,"final_rank":null,"icon":null,"group_id":null,"checked_in_at":null,"ranked_member_id":null,"username":null,"display_name":"TBA","ordinal_seed":"1st"},
+                
+                        "player1_prereq_identifier":10,"player2_prereq_identifier":11,"player1_is_prereq_match_loser":false,"player2_is_prereq_match_loser":false,"player1_placeholder_text":null,"player2_placeholder_text":null,"scores":[],"winner_id":null,"loser_id":null,"md5":"843adc9101584820ce1d46580e09c55e"}],
+                        // Final
+                        "4":[{"id":null,"tournament_id":null,"identifier":14,"round":4,"state":"pending","underway_at":null,"games":[],"scheduled_time":"30/01/23 11:00","shareable":false,
+                        
+                        "player1":null,
+                        
+                        "player2":null,
+                
+                        "player1_prereq_identifier":12,"player2_prereq_identifier":13,"player1_is_prereq_match_loser":false,"player2_is_prereq_match_loser":false,"player1_placeholder_text":null,"player2_placeholder_text":null,"scores":[],"winner_id":null,"loser_id":null,"md5":"6027bc858e71363821cb7d3ee5b6ae46"}]},"groups":[]};
+                        
+                        window._initialStoreState['ThemeStore'] = {"options":{"hideSeeds":false,"hideIdentifiers":null,"showStationAndTime":true,"participantsPerMatch":2}}; window._initialStoreState['BracketSettingsStore'] = {"panOnSingleClick":false,"zoomScaleOnDoubleClick":null,"use100vh":false,"showDetailsOnHover":true};
                         //]]>
-                </script>
+                        </script>
                     <div data-react-class="TournamentController"
                         data-react-props="{&quot;initialView&quot;:&quot;final-stage&quot;,&quot;allowRoundCollapsing&quot;:false,&quot;waitForIntegrationData&quot;:false}">
                     </div>
